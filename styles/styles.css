@@ -56,6 +56,7 @@ span {
 }
 .error-container {
     border: solid 2px #fe4655;
+    border-radius: 8px;
     padding: 0.6em;
     background-color: white;
 }
@@ -63,26 +64,8 @@ span {
 .error-message {
     font-size: 1em;
     color: #fe4655;
-    border-radius: 8px;
     font-family: Special Elite, serif;
 }
-
-
-@media (max-width: 412px) {
-    .page-section {
-        /*height: 100vh;*/
-    }
-
-    h3{
-        font-size: 0.5em;
-    }
-}
-@media (min-width: 576px) {
-    .page-section {
-        /*height: 100vh;*/
-    }
-}
-
 
 /*BOOTSTRAP OVERRIDES*/
 
