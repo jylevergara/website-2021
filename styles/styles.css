@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&family=Space+Mono&family=Special+Elite&display=swap');
+
+body {
+    font-family: Space Mono, serif;
+    /*width: 95vw;*/
+}
+
+h1 {
+    font-family: Roboto, sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: .125em;
+    color: #fe4655;
+}
+
+h2 {
+    font-family: Special Elite, serif;
+}
+
+i.interests-fa {
+    font-size: 2em;
+}
+
+.page-section {
+    /*add padding*/
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+    display: flex;
+    flex-direction: column;
+    /*flex-wrap: wrap;*/
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+span {
+    font-family: Roboto, sans-serif;
+    font-size: 0.8em;
+    font-style: italic;
+    color: darkgrey;
+}
+
+.bottom-section {
+    background-image: url("../src/images/world-g368a4b51c_1280.png");
+    background-color: #212529;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+
+.form-group {
+    margin-bottom: 1em;
+}
+.error-container {
+    border: solid 2px #fe4655;
+    padding: 0.6em;
+    background-color: white;
+}
+
+.error-message {
+    font-size: 1em;
+    color: #fe4655;
+    border-radius: 8px;
+    font-family: Special Elite, serif;
+}
+
+
+@media (max-width: 412px) {
+    .page-section {
+        /*height: 100vh;*/
+    }
+
+    h3{
+        font-size: 0.5em;
+    }
+}
+@media (min-width: 576px) {
+    .page-section {
+        /*height: 100vh;*/
+    }
+}
+
+
+/*BOOTSTRAP OVERRIDES*/
+
+.btn-primary {
+    color: #fff;
+    background-color: #fe4655 !important;
+    border-color: #fe4655;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #bb0f1d;
+    border-color: #bb0f1d;
+}
