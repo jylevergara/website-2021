@@ -248,6 +248,7 @@
                     name="phone"
                     type="tel"
                     placeholder="+12345678910"
+                    tabindex="2"
                   >
                 </div>
 
@@ -260,6 +261,7 @@
                     type="email"
                     autocomplete="email"
                     required
+                    tabindex="3"
                   >
                 </div>
 
@@ -272,6 +274,7 @@
                     type="text"
                     minlength="10"
                     maxlength="128"
+                    tabindex="4"
                   >
                 </div>
 
@@ -290,6 +293,7 @@
                     minlength="10"
                     maxlength="128"
                     list="cities"
+                    tabindex="5"
                   >
 
                   <datalist id="cities">
@@ -302,8 +306,8 @@
                     class="form-control"
                     id="postalCodeInput"
                     name="postalCode"
-                    tabindex="6"
                     placeholder="M6J 1H3"
+                    tabindex="6"
                   >
                   <div class="error-help-text">
 
@@ -319,6 +323,7 @@
                       name="option"
                       value="question"
                       checked
+                      tabindex="7"
                     >
                     <label class="form-check-label" for="option-question">Question</label>
                   </div>
@@ -356,6 +361,7 @@
                     id="messageInput"
                     rows="3"
                     style="width:100%"
+                    tabindex="8"
                   >
               </textarea>
 
@@ -367,7 +373,7 @@
             <div class="row">
               <div class="col-sm-12">
                 <div class="text-container">
-                  <button type="submit" class="btn-lg btn btn-primary">
+                  <button type="submit" tabindex="9" class="btn-lg btn btn-primary">
                     Launch Mission
                   </button>
                 </div>
