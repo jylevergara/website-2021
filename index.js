@@ -25,7 +25,6 @@ window.onload = function () {
   });
 
   const contactFormEl = document.querySelector('#contact-form');
-  console.log('contactForm', contactFormEl);
   contactFormEl.addEventListener('submit', e => {
 
     if (!validateInputs()) {
@@ -119,7 +118,6 @@ function renderErrorMessage(message) {
 
 
   errorMessageContainer.appendChild(messageEl);
-  console.log('errorMessageContainer', errorMessageContainer);
   return errorMessageContainer;
 
 }
