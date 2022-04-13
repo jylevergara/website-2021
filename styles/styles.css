@@ -2,7 +2,6 @@
 
 body {
     font-family: Space Mono, serif;
-    /*width: 95vw;*/
 }
 
 h1 {
@@ -27,7 +26,6 @@ i.interests-fa {
     padding-bottom: 7.5rem;
     display: flex;
     flex-direction: column;
-    /*flex-wrap: wrap;*/
 }
 
 .text-container {
